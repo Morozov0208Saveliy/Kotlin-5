@@ -1,6 +1,8 @@
 package ru.otus.cars
 
-object Taz: Car {
+object Taz : Car {
+    override val mouth: TankMouth = LpgMouth()
+
     /**
      * Номерной знак
      */
